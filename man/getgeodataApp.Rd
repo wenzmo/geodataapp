@@ -7,13 +7,13 @@
 getgeodataApp(geopath = base::readline("path to dep6:"))
 }
 \arguments{
-\item{geopath}{path to d6 geodata server}
+\item{geopath}{path to d6 geodata server, can be set before}
 }
 \value{
 a shiny app for downloading geodata from our d6 server
 }
 \description{
-function for download geodata
+Use this function to browse and download geodata from our d6 server. Use this function within you project, because the data can only be saved within you directory.
 }
 \examples{
 \dontrun{

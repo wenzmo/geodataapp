@@ -1,13 +1,14 @@
 #' function for download geodata
+#'
+#' Use this function to browse and download geodata from our d6 server. Use this function within you project, because the data can only be saved within you directory.
+#'
 #' @return a shiny app for downloading geodata from our d6 server
-#' @param geopath path to d6 geodata server
+#' @param geopath path to d6 geodata server, can be set before
 #' @export
 #' @examples
 #' \dontrun{
 #' getgeodataApp()
 #' }
-
-
 
 
 getgeodataApp <- function(geopath = base::readline("path to dep6:")) {
